@@ -14,7 +14,7 @@ The code consists of the following scripts/folders:
 
 - 'DI_significance_test: Function that computes a and test the significance of a statistic (maximization over estmations of delayed directed information) using the original and surrogate computations of 'DI_computation_per_pair'.
 
-- 'Test_file': Script where pairs of time seres are simulated to test the accuracy of the detection method. 
+- 'Test_file': Script where pairs of time seres are simulated to test the accuracy of the coupling detection DI method. 
 
 - 'CTW_code': Folder with 3 modified files ('ctw_algorithm_M', 'compute_DI_M', 'ctw_update_M') from the implementation of the universal directed information estimator (https://github.com/EEthinker/Universal_directed_information). 
 
