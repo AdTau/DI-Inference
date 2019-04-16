@@ -5,7 +5,7 @@
 MATLAB implementation of the Directional Information (DI) estimator used to compute single-trial directional interactions between discrete time series in sequential time windows. Up to now, it has been used  to analyze simultanous spike train data in two  main publications (Tauste Campo et al., PNAS 2015: Tauste Campo et al., PNAS 2019). The code is built upon the implementation of the universal directed information estimator based on the Context-Tree Weighting (CTW) algorithm in Jiantao Jiao, Haim H. Permuter, Lei Zhao, Young-Han Kim, and Tsachy Weissman. "Universal estimation of directed information." IEEE Transactions on Information Theory 59, no. 10 (2013): 6220-6242 (https://github.com/EEthinker/Universal_directed_information) adding the following features:
 
 - Statistic defined as a maximization of the Directed Information measure over a subset of selected delays.
-- Significance testing method using null distribution approximmated with surrogate computations.
+- Significance testing method using a null distribution approximated with surrogate computations.
 - Slight modification of the CTW algorithm functions 'ctw_algorithm' (now 'ctw_algorithm_M') and 'ctw_update' (now 'ctw_update_M') to increase the algorithm computation speed, and of the function 'compute_DI' (now 'compute_DI_M') for its convenient use here.
 
 The code consists of the following scripts/folders:
