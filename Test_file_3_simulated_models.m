@@ -94,9 +94,9 @@ close all;
             %%%MODEL 3: Model with NO coupling%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             %Stochastic/probability parameters 
              P_XX_0_1=0.95; %Probability of generating X_i=0 given X_{i-1}=1.
-             P_YY_0_1=0.95; %Probability of generating Y_i=0 given Y_{i-1}=1.
+             P_YY_0_1=0.95; %Probability of generating Y_i=0 given Y_{i-1}=1. %Non-equal alternative: P_YY_0_1=P_YY_0_1+((-1).^(rand>0.5))*rand*0.05;
              P_XX_1_0=0.04; %Probability of generating X_i=1 given X_{i-1}=0.
-             P_YY_1_0=0.04; %Probability of generating X_i=1 given X_{i-1}=0.
+             P_YY_1_0=0.04; %Probability of generating X_i=1 given X_{i-1}=0. %Non-equal alternative: P_YY_1_0=P_XX_1_0+((-1).^(rand>0.5))*rand*0.05;
              %Time series initialization
              X(1,:)=zeros(1, L);
              Y(1,:)=zeros(1, L);
