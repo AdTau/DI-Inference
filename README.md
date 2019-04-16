@@ -14,9 +14,11 @@ The code consists of the following scripts/folders:
 
 - 'DI_significance_test.m': Function that tests the significance of a predefined statistic (maximization of the Directed Information estimated at different delays) using the original and surrogate outputs of 'DI_computation_per_pair'.
 
+- 'Test_file_3_simulated models.m': Script in which the accuracy of the DI inference method is assessed in 3 groundtruth stochastic pairwise models (unidirectional coupled pair, bidirectional coupled pair and uncouplued pair). 
+
 - 'CTW_code': Folder with 3 modified files ('ctw_algorithm_M', 'compute_DI_M', 'ctw_update_M') from the implementation of the universal directed information estimator (https://github.com/EEthinker/Universal_directed_information). 
 
--'Test_file_3_simulated models.m': Script in which the accuracy of the DI inference method is assessed in 3 groundtruth stochastic pairwise models (unidirectional coupled pair, bidirectional coupled pair and uncouplued pair). 
+
 
 
 ## Citation
