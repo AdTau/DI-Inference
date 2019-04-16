@@ -1,4 +1,4 @@
-# DI-inference
+# DI-Inference
 
 ## Description
 
