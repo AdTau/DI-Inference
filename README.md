@@ -10,14 +10,13 @@ MATLAB implementation of the Directional Information (DI) estimator used to comp
 
 The code consists of the following scripts/folders:
 
-- 'DI_computation_per_pair': For a pair of neuron, function that estimates delayed versions (for a subset of selected time delays) of the directed information measure via the Context-Tree Weighting algorithm  betweeen (1) the original simultaneous discrete time series and (2) between a number of surrogated pairs in which the second time series is shifted circularly. The code is structured to repeat these 2 computation over all possible slicing time windows ('intervals) of selected length within a fixed trial, and over all available trials.
+- 'DI_computation_per_pair.m': For a pair of time series, function that estimates delayed versions (for a subset of selected time delays) of the directed information measure via the Context-Tree Weighting algorithm  betweeen (1) the original simultaneous discrete time series and (2) between a number of surrogated pairs in which the second time series is shifted circularly. The code is structured to repeat these 2 computation over all possible slicing time windows ('intervals) of selected length within a fixed trial, and over all available trials.
 
-- 'DI_significance_test: Function that computes a and test the significance of a statistic (maximization over estmations of delayed directed information) using the original and surrogate computations of 'DI_computation_per_pair'.
-
-- 'Test_file': Script where pairs of time seres are simulated to test the accuracy of the coupling detection DI method. 
+- 'DI_significance_test.m': Function that tests the significance of a predefined statistic (maximization of the Directed Information estimated at different delays) using the original and surrogate outputs of 'DI_computation_per_pair'.
 
 - 'CTW_code': Folder with 3 modified files ('ctw_algorithm_M', 'compute_DI_M', 'ctw_update_M') from the implementation of the universal directed information estimator (https://github.com/EEthinker/Universal_directed_information). 
 
+-'Test_file_3_simulated models.m': Script in which the accuracy of the DI inference method is assessed in 3 groundtruth stochastic pairwise models (unidirectional coupled pair, bidirectional coupled pair and uncouplued pair). 
 
 
 ## Citation
