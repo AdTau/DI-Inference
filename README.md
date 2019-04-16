@@ -10,7 +10,7 @@ MATLAB implementation of the Directional Information (DI) estimator used to comp
 
 The code consists of the following scripts/folders:
 
-- 'DI_computation_per_pair.m': For a pair of time series, function that estimates delayed versions (for a subset of selected time delays) of the directed information measure via the Context-Tree Weighting algorithm  betweeen (1) the original simultaneous discrete time series and (2) between a number of surrogated pairs in which the second time series is shifted circularly. The code is structured to repeat these 2 computation over all possible slicing time windows ('intervals) of selected length within a fixed trial, and over all available trials.
+- 'DI_computation_per_pair.m': Function that estimates the directed information measure (Massey, 90) via the CTW algorithm (Jiao et al., 2013) at different delays betweeen simultaneously discrete signals. The code is structured to repeat this computation over all possible slicing time windows ('intervals) of a given length within a fixed trial, and over all available trials. The function also performs the same computations for surrogate samples obtained for each parameter (delay, interval) by shifting circulary the target sequence ('Y').
 
 - 'DI_significance_test.m': Function that tests the significance of a predefined statistic (maximization of the Directed Information estimated at different delays) using the original and surrogate outputs of 'DI_computation_per_pair'.
 
