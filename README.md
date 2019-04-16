@@ -1,4 +1,4 @@
-# Directional-Information-code
+# DI_infer
 
 ## Description
 
