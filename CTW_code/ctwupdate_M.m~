@@ -1,7 +1,7 @@
-%Copyright (C) 2019, Adria Tauste Campo
+%Copyright (C) 2019, A. Tauste Campo
 %Contact details: adria.tauste@gmail.com
-%Copyright (C) 2079, Jiantao Jiao
-
+%Copyright (C) 2079, J. Tauste Campo
+%Contact details: adria.tauste@gmail.com
 
 
 function  [eta,beta_M,contT_M] = ctwupdate_M( eta, index, xt,alpha,beta_M,contT_M, j_index)

@@ -1,4 +1,4 @@
-%Copyright (C) 2019, A. Tauste Campo
+%Copyright (C) 2019, Adria Tauste Campo
 %Contact details: adria.tauste@gmail.com
 %This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License v2.0 as published by the Free Software Foundation.
 %This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License v2.0 for more details.
@@ -13,8 +13,8 @@
 %3. Model with no coupling
 
 %These models are analyzed as a function of different parameters to obtain the performance results illustrated in Fig. S5 of the
-%article:
-%A. Tauste Campo, Y. Vázquez, M. Àlvarez, A. Zainos, R. Rossi-Pool, G. Deco, R Romo. 
+%following article:
+%A. Tauste Campo, Y. Vazquez, M. Alvarez, A. Zainos, R. Rossi-Pool, G. Deco, R Romo. 
 %"Feed-forward information and zero-lag synchronization in the sensory thalamocortical circuit are modulated during stimulus perception", 
 %PNAS, 116(15), pp. 7513-22, 2019.
 

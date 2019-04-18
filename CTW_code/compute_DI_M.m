@@ -1,4 +1,6 @@
-
+%Copyright (C) 2019, Adria Tauste Campo
+%Contact details: adria.tauste@gmail.com
+%Copyright (C) 2079, Jiantao Jiao
 
 %DESCRIPTION:
 % Function `compute_DI_MI' calculates the directed information I(X^n-->

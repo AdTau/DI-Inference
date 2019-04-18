@@ -1,3 +1,6 @@
+%Copyright (C) 2019, Adria Tauste Campo
+%Contact details: adria.tauste@gmail.com
+%Copyright (C) 2079, Jiantao Jiao
 
 % DESCRIPTION: Function CTWAlgorithm outputs the universal sequential probability
 % assignments given by CTW method.

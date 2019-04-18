@@ -1,4 +1,4 @@
-%Copyright (C) 2019, A. Tauste Campo
+%Copyright (C) 2019, Adria Tauste Campo
 %Contact details: adria.tauste@gmail.com
 %This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License v2.0 as published by the Free Software Foundation.
 %This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License v2.0 for more details.
