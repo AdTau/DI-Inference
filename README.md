@@ -23,7 +23,11 @@ The code consists of the following scripts/folders:
 
 
 ## Citing
-If you use the source code, please make sure to reference the paper:
+If you use the source code, please make sure to reference the code:
+
+10.5281/zenodo.4059445
+
+and the paper:
 
 Tauste Campo A, Vázquez Y, Álvarez M, Zainos A, Rossi-Pool R, Deco G, Romo R.  Feed-forward information and zero-lag synchronization in the sensory thalamocortical circuit are modulated during stimulus perception. Proceedings National Academy Sciences USA, 116(15):7513-7522, 2019.
 
