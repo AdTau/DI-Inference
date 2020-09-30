@@ -25,7 +25,7 @@ The code consists of the following scripts/folders:
 ## Citing
 If you use the source code, please make sure to reference the code:
 
-
+https://zenodo.org/badge/latestdoi/178240193
 
 and the paper:
 
